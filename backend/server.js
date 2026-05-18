@@ -23,7 +23,6 @@ http.createServer(app);
 
 // Socket.io
 const io = new Server(server, {
-  cors: {
     cors: {
   origin: [
   "http://localhost:5173",
@@ -32,7 +31,7 @@ const io = new Server(server, {
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 
-  }
+}
 });
 
 global.io = io;
