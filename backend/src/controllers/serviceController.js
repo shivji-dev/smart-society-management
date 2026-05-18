@@ -1,5 +1,5 @@
 const ServiceRequest =
-  require("../models/ServiceRequest");
+  require("../models/serviceRequest");
 
 
 // Resident creates service request
