@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API =
-  "http://localhost:5000/api";
+  "http://https://smart-society-backend-yrq0.onrender.com0/api";
 
 
 // ============================

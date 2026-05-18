@@ -17,7 +17,7 @@ const Visitors = () => {
   const fetchVisitors = async () => {
     try {
       const res = await axios.get(
-        "http://localhost:5000/api/visitors"
+        "http://https://smart-society-backend-yrq0.onrender.com0/api/visitors"
       );
 
       setVisitors(res.data.visitors || res.data);
@@ -39,7 +39,7 @@ const Visitors = () => {
 
     try {
       await axios.post(
-        "http://localhost:5000/api/visitors",
+        "http://https://smart-society-backend-yrq0.onrender.com0/api/visitors",
         formData
       );
 

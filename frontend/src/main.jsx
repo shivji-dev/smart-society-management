@@ -15,7 +15,7 @@ from 'socket.io-client'
 // Socket Connection
 
 export const socket = io(
-  'http://localhost:5000'
+  'http://https://smart-society-backend-yrq0.onrender.com0'
 )
 
 ReactDOM.createRoot(
