@@ -13,7 +13,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    'https://smart-society-management-173f.vercel.app'
+    'https://smart-society-management-plum.vercel.app'
   ],
   credentials: true
 }));
