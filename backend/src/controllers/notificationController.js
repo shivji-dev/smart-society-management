@@ -1,5 +1,5 @@
 const Notification = require(
-  "../models/Notification"
+  "../models/notification"
 );
 
 
