@@ -12,8 +12,6 @@ const app = express();
 // Middleware
 app.use(cors({
   origin: [
-    'http://localhost:5173',
-
     'https://smart-society-management-173f.vercel.app'
   ],
   credentials: true
