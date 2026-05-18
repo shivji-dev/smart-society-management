@@ -39,7 +39,8 @@ const MyProfile = () => {
       const response =
         await axios.get(
 
-          "https://smart-society-backend-yrq0.onrender.com0/api/resident/profile",
+          "import.meta.env.VITE_API_URL.replace("/api", "")
+)0/api/resident/profile",
 
           {
             headers: {

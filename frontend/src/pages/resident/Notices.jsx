@@ -39,7 +39,8 @@ const Notice = () => {
       const response =
         await axios.get(
 
-          "https://smart-society-backend-yrq0.onrender.com0/api/notices",
+          "import.meta.env.VITE_API_URL.replace("/api", "")
+)0/api/notices",
 
           {
             headers: {

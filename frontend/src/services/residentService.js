@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const API =
-  "https://smart-society-backend-yrq0.onrender.com0/api";
+  import.meta.env.VITE_API_URL.replace("/api", "")
+
 
 
 // ============================

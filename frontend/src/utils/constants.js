@@ -1,5 +1,6 @@
 export const API_URL =
-  "https://smart-society-backend-yrq0.onrender.com0/api";
+  "import.meta.env.VITE_API_URL.replace("/api", "")
+)0/api";
 
 export const ROLES = {
   ADMIN: "admin",

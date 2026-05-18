@@ -15,8 +15,9 @@ from 'socket.io-client'
 // Socket Connection
 
 export const socket = io(
-  'https://smart-society-backend-yrq0.onrender.com0'
+ import.meta.env.VITE_API_URL.replace("/api", "")
 )
+ 
 
 ReactDOM.createRoot(
   document.getElementById('root')

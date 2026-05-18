@@ -17,7 +17,8 @@ const Visitors = () => {
   const fetchVisitors = async () => {
     try {
       const res = await axios.get(
-        "https://smart-society-backend-yrq0.onrender.com0/api/visitors"
+        "import.meta.env.VITE_API_URL.replace("/api", "")
+)0/api/visitors"
       );
 
       setVisitors(res.data.visitors || res.data);
@@ -39,7 +40,8 @@ const Visitors = () => {
 
     try {
       await axios.post(
-        "https://smart-society-backend-yrq0.onrender.com0/api/visitors",
+        "import.meta.env.VITE_API_URL.replace("/api", "")
+)0/api/visitors",
         formData
       );
 
