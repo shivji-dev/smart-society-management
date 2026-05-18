@@ -3,13 +3,13 @@ const { Server } = require("socket.io");
 const initSocket = (server) => {
   const io = new Server(server, {
     cors: {
-      origin: "*",
-      methods: [
-        "GET",
-        "POST",
-        "PUT",
-        "DELETE"
-      ]
+  origin: [
+  "http://localhost:5173",
+  "https://smart-society.vercel.app"
+  ],
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+
     }
   });
 

@@ -24,13 +24,14 @@ http.createServer(app);
 // Socket.io
 const io = new Server(server, {
   cors: {
-    origin: "*",
-    methods: [
-      "GET",
-      "POST",
-      "PUT",
-      "DELETE"
-    ]
+    cors: {
+  origin: [
+  "http://localhost:5173",
+  "https://smart-society-frontend.vercel.app"
+],
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+
   }
 });
 
