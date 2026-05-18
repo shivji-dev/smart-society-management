@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API =
-  "http://https://smart-society-backend-yrq0.onrender.com0/api/auth";
+  "https://smart-society-backend-yrq0.onrender.com0/api/auth";
 
 export const loginUser =
 async (userData) => {

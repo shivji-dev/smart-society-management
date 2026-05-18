@@ -39,7 +39,7 @@ const MyProfile = () => {
       const response =
         await axios.get(
 
-          "http://https://smart-society-backend-yrq0.onrender.com0/api/resident/profile",
+          "https://smart-society-backend-yrq0.onrender.com0/api/resident/profile",
 
           {
             headers: {

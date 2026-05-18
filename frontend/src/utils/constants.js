@@ -1,5 +1,5 @@
 export const API_URL =
-  "http://https://smart-society-backend-yrq0.onrender.com0/api";
+  "https://smart-society-backend-yrq0.onrender.com0/api";
 
 export const ROLES = {
   ADMIN: "admin",

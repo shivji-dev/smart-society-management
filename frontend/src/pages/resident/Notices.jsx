@@ -39,7 +39,7 @@ const Notice = () => {
       const response =
         await axios.get(
 
-          "http://https://smart-society-backend-yrq0.onrender.com0/api/notices",
+          "https://smart-society-backend-yrq0.onrender.com0/api/notices",
 
           {
             headers: {
